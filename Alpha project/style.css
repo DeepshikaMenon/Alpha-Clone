@@ -1,0 +1,303 @@
+body{
+    font-family: 'Source Sans 3', sans-serif;
+    background-image: url(./images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 690px;
+    background-color: whitesmoke;
+}
+#HeaderSection{
+    color: white;
+}
+#HeaderSection div h1 span{
+   font-weight: 100; 
+} 
+#HeaderSection div h1{
+    font-size: 17px;
+    margin: 19px 0px 0px 15px;
+}
+#HeaderSection div{
+    display: inline-block;
+}
+#OptionDiv ul li{
+    display: inline-block;
+    padding-left: 20px;
+}
+#OptionDiv{
+    float: right;
+}
+.fa-angle-down{
+    margin-right: 6px;
+    font-weight: 900;
+}
+#Sign{
+    border: 2px solid white;
+    color: white;
+    background-color: transparent;
+    border-radius: 6px;
+    padding: 8px 15px;
+}
+#Sign:hover{
+    background-color: rgba(255, 255, 255, 0.085);
+}  
+/* BodySection starts here */
+#BodySection{
+    margin-top: 120px;
+    text-align: center;
+    color: white;
+}
+#BodySection h1{
+    font-size: 57px;
+}
+#BodySection p{
+    font-size: 21px;
+    margin-top: -28px;
+}
+#BodySection div button:nth-child(1){
+    background: white;
+    border: 0px;
+    border-radius: 5px;
+    padding: 15px 70px;
+    font-size: 16px;
+    color: #77726e;
+}
+#BodySection div button:nth-child(2){
+    background: transparent;
+    border: 2px solid #bab9b6;
+    border-radius: 5px;
+    padding: 15px 65px;
+    font-size: 16px;
+    color: white;
+    margin-left: 27px;
+}
+#BodySection div button:nth-child(2):hover{
+    background-color: rgba(255, 255, 255, 0.085);
+}
+/* BodySection ends here */
+/* DescripSection starts here */
+#DescripSection{
+    background-color: white;
+    width: 69%;
+    text-align: center;
+    margin: 0 auto;
+    color: #7b7b7b;
+    margin-top: 130px;
+    border-radius: 6px;
+}
+#DescripSection h1{
+    font-size: 36px;
+    padding-top: 75px;
+    margin-bottom: 19px;
+}
+#DescripSection p{
+    font-size: 22px;
+    padding: 35px 0px;
+    border-top: 2px solid #7b7b7b;
+    display: inline-block;
+}
+#DescripSection img{
+    width: 100%;
+    border-radius: 0px 0px 6px 6px;
+    display: block;
+}
+/* DescripSection ends here */
+/* IconSection starts here */
+#IconSection{
+    width: 69%;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 44px;
+    border-radius: 10px;
+}
+#IconSection div{
+    text-align: center;
+    display: inline-block;
+    width: 49%;
+    /* border-top: solid 2px #e5e5e5;
+    position: relative; */
+}
+#IconSection div h1{
+    font-size: 30px;
+    color: #7b7b7b;
+}
+#IconSection div p{
+    font-size: 18px;
+    color: #7b7b7b;
+}
+.fa-bolt{
+    background-color: #e89980;
+    font-size: 53px;
+    color: white;
+    padding: 17px 33px;
+    border-radius: 100%;
+    margin: 67px 0px 15px 0px;
+}
+.fa-area-chart{
+    background-color: #7fcdb8;
+    font-size: 40px;
+    color: white;
+    padding: 23px 29px;
+    border-radius: 100%;
+    margin-top: 67px 0px 15px 0px;
+}
+.fa-cloud{
+    background-color: #90b0ba;
+    font-size: 45px;
+    color: white;
+    padding: 25px 25px;
+    border-radius: 100%;
+    margin: 67px 0px 15px 0px;
+}
+.fa-lock{
+    background-color: #e5cb95;
+    font-size: 53px;
+    color: white;
+    padding: 21px 34px;
+    border-radius: 100%;
+    margin-top: 67px 0px 15px 0px;
+}
+#IconDiv1{
+    margin: 40px 0px 0px 10px;
+    border-right: solid 2px #e5e5e5;
+    position: relative;
+    border-bottom: solid 2px #e5e5e5;
+    position: relative; 
+}
+#IconDiv2{
+    margin: 0px 10px 0px -5px;
+    border-bottom: solid 2px #e5e5e5;
+    position: relative; 
+}
+#IconDiv3{
+    margin: -6px 0px 0px 10px;
+    border-right: solid 2px #e5e5e5;
+    position: relative;
+}
+#IconDiv4{
+    margin: 0px 0px 40px -4px; 
+}
+/* IconSection ends here */
+/* ImgSection starts here */
+#ImgSection{
+    width: 69%;
+    margin: 0 auto;
+    margin-top: 37px;
+    border-radius: 6px;
+}
+#ImgSection div{
+    width: 48.5%;
+    background-color: white;
+    display: inline-block;
+    border-radius: 6px;
+    text-align: center;
+    color: #7b7b7b;
+    /* margin: 28px 13px -2px 0px; */
+    /* width: 48% */
+    /* argin: 28px 19px -2px 0px */
+}
+#ImgSection div img{
+    width: 100%;
+    /* border-radius: 6px 6px 0px 0px; */
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+#ImgDiv{
+    margin-right: 27px;
+}
+#ImgSection div h1{
+    font-size: 29px;
+}
+#ImgSection div p{
+    font-size: 18px;
+}
+#Learn1{
+    border: 2px solid #e5e5e5;
+    color: #777;
+    background-color: transparent;
+    border-radius: 6px;
+    padding: 15px 40px;
+    font-size: 17px;
+    margin: 20px 0px 45px 0px;
+}
+#Learn1:hover{
+    background-color: whitesmoke;
+}
+#Learn2{
+    border: 2px solid #e5e5e5;
+    color: #777;
+    background-color: transparent;
+    border-radius: 6px;
+    padding: 15px 40px;
+    font-size: 17px;
+    margin: 20px 0px 45px 0px;
+}
+#Learn2:hover{
+    background-color: whitesmoke;
+}
+/* ImgSection ends here */
+/* FooterSection starts here */
+#FooterSection{
+    margin-top: 100px;
+}
+#FooterDiv1{
+    text-align: center;
+    background-color: #e89980;
+    color: white;
+    height: 300px;
+    padding-bottom: 40px;
+}
+#FooterDiv1 h1{
+    font-size: 30px;
+    font-weight: 100;
+    padding-top: 70px;
+}
+#FooterDiv p{
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+#FooterDiv1 button{
+    padding: 15px 50px;
+    border: none;
+    color: #e89980;
+    background-color: white;
+    font-size: 17px;
+    border-radius: 5px;
+}
+#FooterDiv1 input{
+    padding: 20px 74px 20px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #eba893;
+    margin-right: 30px;
+    color: white;
+}
+#FooterDiv1 input::placeholder{
+    color: white;
+}
+#FooterDiv2 ul li{
+    display: inline-block;
+    font-size: 16px;
+    padding: 0px 15px;
+    border-right: 1px solid #999;
+    margin-top: 30px;
+}
+#FooterDiv2 ul li a{
+    color: #999;
+    transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
+    text-decoration: none;
+    border-bottom: dotted 1px;
+}
+#FooterDiv2{
+    text-align: center;
+    height: 250px;
+    padding-top: 115px;
+    color: #999;
+}
+#FooterDiv2 i{
+    font-size: 35px;
+    margin: 0px 10px;
+}
+#FooterDiv2 ul li:nth-child(3){
+    border: none;
+}
+/* FooterSection ends here */
